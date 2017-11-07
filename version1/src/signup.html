@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="../bscss/bootstrap.min.css" rel="stylesheet"> 
+  <link href="../style/signup.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
@@ -21,28 +22,57 @@
 
 <body>
 
-   <!-- navigation bar -->
-   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <p class="navbar-header" id="navheader">TeamWatch</p>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li> 
-        </ul>
-      </div> 
-    </nav>
-  
-
-
+  <!-- navigation bar -->
+  <nav class="navbar fixed-top navbar-dark bg-dark" id="navibar">
+    <p class="navbar-header" id="naviheader">TeamWatch</p>
+  </nav>
+ 
+ <!-- container with content --> 
+  <div class="container">
+    <div class="signupcontainer">
+      <h2>Sign Up</h2>
+      <hr>
+      <div class="suform">
+        <form name="signupform" method="post" action="">
+          <table id="formtable">
+              <tr>
+                <td><label for="username" id="usrnm">Username (Email): </label></td>
+                <td><input type="text" name="username" placeholder="username(email)"></td>
+              </tr>
+              <tr>
+                <td><label for="firstname" id="firstname">First Name: </label></td>
+                <td><input type="text" name="firstname" placeholder="first name"></td>
+              </tr>
+              <tr>
+                <td><label for="lastname" id="lastname">Last Name: </label></td>
+                <td><input type="text" name="lastname" placeholder="last name"></td>
+              </tr>
+              <tr>
+                <td><label for="pw" id="pswd">Password: </label></td>
+                <td><input type="password" name="pswd" placeholder="password"></td>
+              </tr>
+              <tr>
+                <td><label for="confirmpw" id="cfmpswd">Confirm Password: </label></td>
+                <td><input type="confirmpassword" name="confirmpswd" placeholder="confirm password"></td>
+              </tr>
+          </table>
+          <hr>
+          <div class="usertype">
+            <p><strong>I am a: </strong></p>
+            <div class="useropt">
+              <input type="radio" name="utype" id="coach">
+              <label for="coach-option" id="useroption">Coach</label>
+              <input type="radio" name="utype" id="player">
+              <label for="player-option" id="useroption">Player</label>            
+              <input type="radio" name="utype" id="parent">
+              <label for="parent-option" id="useroption">Parent</label>  
+            </div>          
+          </div>
+          <hr>
+          <button class="btn btn-primary" id="signupbtn" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
