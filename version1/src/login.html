@@ -7,7 +7,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="./bscss/bootstrap.min.css" rel="stylesheet"> 
+  <link href="../bscss/bootstrap.min.css" rel="stylesheet"> 
+  <link href="../style/login.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
@@ -22,9 +23,33 @@
 <body>
 
   <!-- navigation bar -->
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <p class="navbar-header" id="navheader">TeamWatch</p>
+  <nav class="navbar fixed-top navbar-dark bg-dark" id="navibar">
+    <p class="navbar-header" id="naviheader">TeamWatch</p>
   </nav>
+ 
+ <!-- container with content --> 
+  <div class="container">
+
+    <div class="logincontainer">
+      <h2>Welcome.</h2>
+      <p>Please login to continue.</p>
+      <hr>
+      <!-- login form --> 
+      <form name="loginform" method="post" action="">
+        <div class="username">
+          <input id="formfield" type="text" name="username" placeholder="username">
+        </div>
+        <div class="password">
+          <input id="formfield" type="password" name="password" placeholder="password">
+        </div>
+        <button class="btn btn-primary" id="loginbtn" type="submit">Login</button>
+        <hr>
+        <p>Or, <a href="./signup.html" id="sun">Sign Up</a> if you don't have an account.</p>
+      </form>
+
+    </div>
+ 
+  </div>
 
 
 
