@@ -31,3 +31,13 @@
 .gamestatsbar {
   display: inline;
 }
+
+.progressbarlimiter {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inlinenumber {
+  display: inline;
+}
