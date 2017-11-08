@@ -23,36 +23,41 @@
 <body>
 
   <!-- navigation bar -->
-  <nav class="navbar fixed-top navbar-dark bg-dark" id="navibar">
-    <p class="navbar-header" id="naviheader">TeamWatch</p>
+  <nav class="navbar navbar-default fixed-top navbar-dark bg-dark" id="navibar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./login.html" id="naviheader">TeamWatch</a>
+      </div>
+    </div>
   </nav>
  
  <!-- container with content --> 
   <div class="container">
-
-    <div class="logincontainer">
-      <h2>Welcome.</h2>
-      <p>Please login to continue.</p>
-      <hr>
-      <!-- login form --> 
-      <form name="loginform" method="post" action="">
-        <div class="username">
-          <input id="formfield" type="text" name="username" placeholder="username">
-        </div>
-        <div class="password">
-          <input id="formfield" type="password" name="password" placeholder="password">
-        </div>
-        <button class="btn btn-primary" id="loginbtn" type="submit">Login</button>
+    <div class="row">
+      <div class="form_background col-lg-5">
+        <form> 
+          <h1 class="text-center">Welcome.</h1>
+          <h5 class="text-center"><small> Please login to continue.</small></h5>
+          <hr>
+          <div class="form-group">
+            <input type="email" class="form-control" id="username" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="pwd" placeholder="Password">
+          </div>
+          <br>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary" id="login">Login</button>
+          </div>
+        </form>
         <hr>
-        <p>Or, <a href="./signup.html" id="sun"> Sign Up</a> if you don't have an account.</p>
-      </form>
-
+        <div class="text-center">
+          <h6><small>Don't have an account?</small></h6>
+          <h6><a href="./signup.html"><strong> Click here</strong></a><small> to sign up and get started.</small></h6>
+        </div>
+      </div>
     </div>
- 
   </div>
-
-
-
 
 </body>
 </html>
