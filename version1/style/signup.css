@@ -83,7 +83,7 @@ label {
   height: 4vw;
 }
 
-#useroption {
+label > #useroption {
   padding: 1vw 3.5vw 1vw 0.2vw;
   font-size: 1.8vw;
 }

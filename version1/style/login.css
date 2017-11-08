@@ -1,15 +1,10 @@
-
-/* body, .container, #navibar, #naviheader are all going to repeat on every .css file for now */ 
-/* ------------------------------------------------------------------------------------------ */
-
 body {
   background: #d4d8d5;
 }
 
 .container {
-  padding-top: 11vw;
-  padding-bottom: 5vw;  
-  margin: 0 auto;
+  padding-top: 7rem;
+  margin-bottom: 3rem;  
 }
 
 #navibar {
@@ -18,75 +13,12 @@ body {
 
 #naviheader {
   color: white; 
-  font-size: 3vw;
-  margin-top: 0.5vw;
-  margin-bottom: 0.5vw;
 }
 
-::-webkit-input-placeholder { 
-  font-size: 1.2vw;
-}
-
-:-moz-placeholder { 
-  font-size: 1.2vw;  
-}
-
-::-moz-placeholder { 
-  font-size: 1.2vw;  
-}
-
-:-ms-input-placeholder { 
-  font-size: 1.2vw;
-}
-
-::-ms-input-placeholder { 
-  font-size: 1.2vw;
-}
-
-/* ------------------------------------------------------------------------------------------ */
-
-.logincontainer {
+.form_background {
   margin: 0 auto;
   padding: 4vw;
-  text-align: center;
   background-color: white;
   border: 0.3vw solid gray;
   border-radius: 3vw;
-  width: 50vw;
-}
-
-.logincontainer > h2 {
-  font-size: 4vw;
-}
-
-.logincontainer p {
-  font-size: 1vw;
-}
-
-.logincontainer a {
-  font-size: 1.5vw;
-}
-
-.username, .password {
-  padding: 1vw 1vw 0vw 1vw;
-}
-
-#loginbtn {
-  width: 5vw;
-  height: 3vw;
-  font-size: 1.2vw;
-  text-align: center;
-  padding: 0;
-}
-
-#formfield {
-  width: 22vw;
-}
-
-#sun {
-  text-decoration: underline;
-}
-
-#loginbtn {
-  margin: 1vw 0.5vw 1vw 1vw;
 }
