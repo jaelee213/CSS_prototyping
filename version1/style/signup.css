@@ -1,14 +1,10 @@
-/* body, .container, #navibar, #naviheader are all going to repeat on every .css file for now */ 
-/* ------------------------------------------------------------------------------------------ */
-
 body {
   background: #d4d8d5;
 }
 
 .container {
-  padding-top: 11vw;
-  padding-bottom: 5vw;
-  margin: 0 auto;
+  padding-top: 7rem;
+  margin-bottom: 3rem;  
 }
 
 #navibar {
@@ -17,94 +13,12 @@ body {
 
 #naviheader {
   color: white; 
-  font-size: 3vw;
-  margin-top: 0.5vw;
-  margin-bottom: 0.5vw;
 }
 
-::-webkit-input-placeholder { 
-  font-size: 1.2vw;
-}
-
-:-moz-placeholder { 
-  font-size: 1.2vw;  
-}
-
-::-moz-placeholder { 
-  font-size: 1.2vw;  
-}
-
-:-ms-input-placeholder { 
-  font-size: 1.2vw;
-}
-
-::-ms-input-placeholder { 
-  font-size: 1.2vw;
-}
-
-label {
-  font-size: 1.4vw;
-}
-
-/* ------------------------------------------------------------------------------------------ */
-
-.signupcontainer {
+.form_background {
   margin: 0 auto;
   padding: 4vw;
-  text-align: center;
   background-color: white;
   border: 0.3vw solid gray;
   border-radius: 3vw;
-  width: 50vw;
-  color: #373837;
-}
-
-.signupcontainer > h2 {
-  font-size: 4vw;
-  color: #373837;
-}
-
-#formtable {
-  text-align: center;
-  margin: 0 auto;
-}
-
-#signupbtn {
-  width: 5vw;
-  height: 3vw;
-  font-size: 1.2vw;
-  text-align: center;
-  padding: 0;
-  margin: 2vw;
-}
-
-#formtable input {
-  width: 15vw;
-  height: 4vw;
-}
-
-label > #useroption {
-  padding: 1vw 3.5vw 1vw 0.2vw;
-  font-size: 1.8vw;
-}
-
-.usertype > p {
-  font-size: 3vw;
-}
-
-.useropt {
-  text-align: center;
-  padding-left: 5vw;
-}
-
-.useropt > input {
-  width: 1vw;
-}
-
-#signupbtn {
-  width: 7vw;
-  height: 4vw;
-  font-size: 1.5vw;
-  text-align: center;
-  padding: 0;
 }

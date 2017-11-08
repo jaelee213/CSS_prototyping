@@ -23,56 +23,65 @@
 <body>
 
   <!-- navigation bar -->
-  <nav class="navbar fixed-top navbar-dark bg-dark" id="navibar">
-    <p class="navbar-header" id="naviheader">TeamWatch</p>
+  <nav class="navbar navbar-default fixed-top navbar-dark bg-dark" id="navibar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="./login.html" id="naviheader">TeamWatch</a>
+        </div>
+      </div>
   </nav>
  
- <!-- container with content --> 
-  <div class="container">
-    <div class="signupcontainer">
-      <h2>Sign Up</h2>
-      <hr>
-      <div class="suform">
-        <form name="signupform" method="post" action="">
-          <table id="formtable">
-              <tr>
-                <td><label for="username" id="usrnm">Username (Email): </label></td>
-                <td><input type="text" name="username" placeholder="username(email)"></td>
-              </tr>
-              <tr>
-                <td><label for="firstname" id="firstname">First Name: </label></td>
-                <td><input type="text" name="firstname" placeholder="first name"></td>
-              </tr>
-              <tr>
-                <td><label for="lastname" id="lastname">Last Name: </label></td>
-                <td><input type="text" name="lastname" placeholder="last name"></td>
-              </tr>
-              <tr>
-                <td><label for="pw" id="pswd">Password: </label></td>
-                <td><input type="password" name="pswd" placeholder="password"></td>
-              </tr>
-              <tr>
-                <td><label for="confirmpw" id="cfmpswd">Confirm Password: </label></td>
-                <td><input type="confirmpassword" name="confirmpswd" placeholder="confirm password"></td>
-              </tr>
-          </table>
+  <div class="container"> 
+    <div class="row">
+      <div class="form_background col-lg-5">
+        <form> 
+          <h1 class="text-center"><strong>Sign Up</strong></h1>
+          <h6 class="text-center"><small><em>Please fill out the following to create your account: </em></small></h6>
           <hr>
-          <div class="usertype">
-            <p><strong>I am a: </strong></p>
-            <div class="useropt">
-              <input type="radio" name="utype" id="useroption">
-              <label for="coach-option" id="useroption">Coach</label>
-              <input type="radio" name="utype" id="useroption">
-              <label for="player-option" id="useroption">Player</label>            
-              <input type="radio" name="utype" id="useroption">
-              <label for="parent-option" id="useroption">Parent</label>  
-            </div>          
+          <br>
+          <div class="form-group">
+            <input type="email" class="form-control" id="userid" placeholder="Username (Email)">
           </div>
+          <br>
+          <div class="form-group">
+            <input type="text" class="form-control" id="fn" placeholder="First Name">
+          </div>
+          <br>
+          <div class="form-group">
+            <input type="text" class="form-control" id="ln" placeholder="Last Name">
+          </div>
+          <br>
+          <div class="form-group">
+            <input type="password" class="form-control" id="pswd" placeholder="Password">
+          </div>
+          <br>
+          <div class="form-group">
+            <input type="password" class="form-control" id="confirmpswd" placeholder="Confirm Password">
+          </div>
+          <br>
           <hr>
-          <button class="btn btn-primary" id="signupbtn" type="submit">Submit</button>
+          <br>
+          <div class="text-center">
+            <h4><strong>I am a: </strong></h4>
+          </div>
+          <div class="form-group">
+            <label for="selectlist">Select one:</label>     
+            <select class="form-control" id="selectlist">
+              <option>Coach</option>
+              <option>Player</option>
+              <option>Fan</option>
+            </select>      
+          </div>
+          <br>
+          <hr>
+          <br>
+          <div class="text-center">
+            <button type="submit" class="btn btn-lg btn-primary" id="signup">Sign Up</button>
+          </div>
         </form>
       </div>
     </div>
-  </div>
+  </div>  
+
 </body>
 </html>
