@@ -8,12 +8,12 @@
   text-align: center;
 }
 
-.myteamname {
+.myteamnamehome {
   width: 80%;
   margin: 2rem auto;
   background-color: #282828;
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: normal;
 }
 
@@ -25,18 +25,34 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
-th, td {
+#teamtotaltable th {
   border: 0.1rem solid #d4d8d5;
-}
-
-th {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: #287aff;
   color: white;
+}
+
+#teamtotaltable td {
+  border: 0.1rem solid #d4d8d5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#teamgoaltable th {
+  border: 0.1rem solid #d4d8d5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #287aff;
+  color: white;
+}
+#teamgoaltable td {
+  border: 0.1rem solid #d4d8d5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 #teamgoaltable {
