@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html> 
 
-<!-- The _____________ page --> 
+<!-- The view player page --> 
 
 <html lang="en"> 
 <head>
@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="../bscss/bootstrap.min.css" rel="stylesheet"> 
+  <link href="../style/viewplayer.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
@@ -23,56 +24,92 @@
 
   <!-- navigation bar -->
   <nav class="navbar navbar-default navbar-expand-md fixed-top navbar-dark bg-dark" id="navibar">
-      <a class="navbar-brand" href="./home.html">TeamWatch</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gameschedule.html">Game</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Player</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Manage</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <a class="navbar-brand" href="./home.html">TeamWatch</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./gameschedule.html">Game</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Player</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Manage</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-danger" href="./login.html">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <div class="container-fluid">
-    <div class="jumbotron jumbo">
-      <div class="container-fluid">
-	    <!--<div class="row">
-          <div class="col">
-		    <img class="img-thumbnail" src="../img/ronaldo.jpg" alt="Thumbnail image">
-	      </div>
-		  <div class=
-		</div>-->
-        <div class="media">
-          <img class="d-flex align-self-center mr-3" src="../img/ronaldo.jpg" alt="Player Thumbnail">
-          <div class="media-body">
-		    <button type="button" class="btn btn-outline-primary float-right">
-		      <span class="glyphicon glyphicon-pencil" aria-hidden="true">Edit</span>
-			</button>
-            <h2 class="text-info text-center">Cristiano Ronaldo</h2>
-			<h2 class="text-info text-center">000001</h2>
+  <div class="container">
+    <div class="row">
+      <div class="jumbotron jumbo w-75">
+        <div class="container-fluid">
+          <div class="column-lg">
+            <div class="text-center">
+              <div class="col-lg plyrcont rounded p-5">
+                <h2 id="playername" class="text-primary">Cristiano Ronaldo</h2>
+                <hr>
+                <br>
+                <img src="../img/ronaldo.jpg" alt="Cristiano Ronaldo thumbnail image" class="img-thumbnail rounded-circle">
+                <br>
+                <hr>
+                <table class="table table-sm">
+                  <tbody>
+                    <tr>
+                      <td>Position: </td>
+                      <td id="playerposition">Forward</td>
+                    </tr>
+                    <tr>
+                      <td>Jersey #: </td>
+                      <td id="playerjerseynumber">7</td>
+                    </tr>
+                    <tr>
+                      <td>Date of Birth: </td>
+                      <td id="playerbirthdate">02/05/1985</td>
+                    </tr>
+                    <tr>
+                      <td>Goals Scored: </td>
+                      <td id="playergoalsscored">10</td>
+                    </tr>
+                    <tr>
+                      <td>Assists: </td>
+                      <td id="playerassists">8</td>
+                    </tr>
+                    <tr>
+                      <td>Games Played: </td>
+                      <td id="playergamesplayed">20</td>
+                    </tr>
+                    <tr>
+                      <td>Total Fouls: </td>
+                      <td id="playertotalfouls">5</td>
+                    </tr>
+                    <tr>
+                      <td>Red Cards: </td>
+                      <td id="playerredcards">0</td>
+                    </tr>
+                    <tr> 
+                      <td>Yellow Cards: </td>
+                      <td id="playeryellowcards">3</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br>
+                <a class="text-white" href="./editplayer.html"><button type="button" class="btn btn btn-primary btn-block">Edit Player</button></a>
+              </div>   
+            </div>
           </div>
         </div>
-		<h2 class="text-info"><span class="text-left">Position:</span> <span class="text-right">Forward</span></h2>
-		<h2 class="text-info"><span class="text-left">Jersey:</span> <span class="text-right">7</span></h2>
-		<h2 class="text-info"><span class="text-left">Date of Birth:</span> <span class="text-right">02/05/1985</span></h2>
-		<h2 class="text-info"><span class="text-left">Goals:</span> <span class="text-right">10</span></h2>
-		<h2 class="text-info"><span class="text-left">Assists:</span> <span class="text-right">8</span></h2>
-		<h2 class="text-info"><span class="text-left">Games Played:</span> <span class="text-right">20</span></h2>
       </div>
     </div>
   </div>
-
 </body>
 </html>

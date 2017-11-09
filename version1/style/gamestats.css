@@ -1,4 +1,4 @@
-body {
+﻿body {
   background: #d4d8d5;
 }
 
@@ -15,10 +15,11 @@ body {
   color: white; 
 }
 
-.form_background {
-  margin: 0 auto;
-  padding: 4vw;
+.jumbo {
   background-color: white;
-  border: 0.3vw solid gray;
-  border-radius: 3vw;
+  margin: 0 auto;
+}
+
+.gamestatsteams {
+  font-size: 3rem;
 }
