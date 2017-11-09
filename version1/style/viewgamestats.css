@@ -41,3 +41,15 @@
 .inlinenumber {
   display: inline;
 }
+
+.incrup {
+  background: url(../img/glyphicons-chevron-up.png) no-repeat;
+  background-position: center;
+  border: none;
+}
+
+.incrdown {
+  background: url(../img/glyphicons-chevron-down.png) no-repeat;
+  background-position: center;
+  border: none;
+}
