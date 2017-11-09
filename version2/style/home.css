@@ -57,21 +57,29 @@ th {
   background-color: #fbffc1;
 }
 
-#viewstats {
-  display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0.5rem;
-  background-color: red;
+#editGameBtn {
+  width: 90%;
+  padding: 0.25rem;
+  font-size: 1.5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1.5rem;
+  margin-top: 0.3rem;
   color: white;
+  background-color: #007BFF;
+  border: 0.1rem solid #007BFF;
+  border-radius: 0.3rem;
 }
 
-#editgame {
-  display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #287aff;
+#viewStatsBtn {
+  width: 90%;
+  padding: 0.25rem;
+  font-size: 1.5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1rem;
   color: white;
+  background-color: red;
+  border: 0.1rem solid red;
+  border-radius: 0.3rem;
 }
