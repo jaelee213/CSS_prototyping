@@ -40,9 +40,6 @@
             <a class="nav-link" href="#">Player</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Manage</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link text-danger" href="./login.html">Logout</a>
           </li>
         </ul>
@@ -51,31 +48,33 @@
 
  <!-- container with content -->
     <div class="container">
-      <h3 class="text-center"> Add Game</h3>
-      <form class="form-horizontal">
-        <div class="form-group">
-          <label class="control-label" for="OppTeam">Opposing Team:</label>
-          <input type="text" class="form-control" id="OppTeam" name="OppTeam" placeholder="Enter Team Name">
-        </div>
-        <div class="form-group">
-          <label class="control-label" for="gameDate">Date:</label>
-          <input type="date" class="form-control" id="gameDate" name="gameDate">
-        </div>
-        <div class="form-group">
-          <label class="control-label" for="location">Location:</label>
-          <input type="text" class="form-control" id="location" name="location" placeholder="Enter Location">
-        </div>
-        <div class="form-group">
-          <label class="control-label" for="status">Status:</label>
-          <div class="radio">
-            <label class="control-label"><input type="radio" name="status">Home</label>
+      <div class="jumbotron bg-white">
+        <h3 class="text-center"> Add Game</h3>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label" for="OppTeam">Opposing Team:</label>
+            <input type="text" class="form-control" id="OppTeam" name="OppTeam" placeholder="Enter Team Name">
           </div>
-          <div class="radio">
-            <label class="control-label"><input type="radio" name="status">Away</label>
+          <div class="form-group">
+            <label class="control-label" for="gameDate">Date:</label>
+            <input type="date" class="form-control" id="gameDate" name="gameDate">
           </div>
-        </div>
-        <button type="submit" class="btn btn-primary btn-block col-lg-">Add Game</button>
-      </form>
+          <div class="form-group">
+            <label class="control-label" for="location">Location:</label>
+            <input type="text" class="form-control" id="location" name="location" placeholder="Enter Location">
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="status">Status:</label>
+            <div class="radio">
+              <label class="control-label"><input type="radio" name="status">Home</label>
+            </div>
+            <div class="radio">
+              <label class="control-label"><input type="radio" name="status">Away</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block col-lg-">Add Game</button>
+        </form>
+      </div>
     </div>
 
 </body>

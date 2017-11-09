@@ -39,9 +39,6 @@
           <a class="nav-link" href="#">Player</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Manage</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link text-danger" href="./login.html">Logout</a>
         </li>
       </ul>
@@ -50,12 +47,11 @@
 
  <!-- container with content --> 
   <div class="container">
-    <div class="row">
-      <div class="jumbotron jumbo w-75">
+      <div class="jumbotron bg-white">
         <div class="container-fluid">
           <div class="column-lg">
             <div class="text-center">
-              <div class="col-lg plyrcont rounded p-5">
+              <div class="col-lg plyrcont rounded pt-5 pb-5">
                 <form> 
                   <h1 class="text-primary">Add Player</h1>
                   <h6 class="text-danger"><em>Please fill out the following to add a new player to the team.</em></h6>
@@ -65,9 +61,10 @@
                   <br>
                   <h6 class="text-danger mt-5"><small>** To choose player picture, press the "choose file" button below **</small></h6>                
                   <div class="form-group justify-content-center">
-                    <input type="file" class="form-control-sm pl-5" name="playerpicture" id="playerphoto" onchange="">
+                    <input type="file" class="form-control-sm" name="playerpicture" id="playerphoto" onchange="">
                   </div>
                   <br>
+                  <div class="col-lg-8 offset-lg-2"> 
                   <div class="form-group">
                     <input type="text" class="form-control" id="newfn" placeholder="First Name">
                   </div>
@@ -119,6 +116,7 @@
                   <br>
                   <hr>
                   <br>
+                  </div>
                   <div class="text-center">
                     <button type="submit" class="btn btn-lg btn-primary" id="signup">Add</button>
                   </div>
@@ -128,7 +126,6 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
 </body>
 </html>
