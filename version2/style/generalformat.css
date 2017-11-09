@@ -4,6 +4,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* NAVBAR CSS STARTS HERE */
 .navbar {
   background-color: black;
   overflow: hidden;
@@ -33,3 +34,4 @@ body {
 #logout {
   color: red;
 }
+/* NAVBAR CSS ENDS Here */

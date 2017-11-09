@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="../style/addgame.css">
-  <title>Add Game</title>
+  <link rel="stylesheet" href="../style/editgame.css">
+  <title>Edit Game</title>
 </head>
 
 <body>
@@ -21,20 +21,21 @@
   </div>
 
   <div class="box">
-    <h2>Add Game</h2>
+    <h2>Edit Game</h2>
     <form>
       <p><label for="OppTeam">Opposing Team:</label></p>
-      <input type="text" id="OppTeam" name="OppTeam" placeholder="Enter Team Name">
+      <input type="text" id="OppTeam" name="OppTeam" value="Team Green">
       <p><label for="gameDate">Date:</label></p>
-      <input type="date" id="gameDate" name="gameDate">
+      <input type="date" id="gameDate" name="gameDate" value="2017-11-15">
       <p><label for="gametime">Time:</label></p>
-      <input type="time" id="gametime" name="time">
+      <input type="time" id="gametime" name="time" value="19:00">
       <p><label for="location">Location:</label></p>
-      <input type="text" id="location" name="location" placeholder="Enter Location">
+      <input type="text" id="location" name="location" value="SD Petco Park">
       <p><label for="status">Status:</label></p>
       <p><input type="radio" name="status" value="home">Home</p>
       <p><input type="radio" name="status" value="away">Away</p>
-      <input type="submit" value="Add Game">
+      <input type="submit" value="Edit Game">
+      <input type="button" value="Delete Game">
     </form>
   </div>
 </body>
