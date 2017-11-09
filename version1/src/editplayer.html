@@ -37,21 +37,17 @@
           <a class="nav-link" href="#">Player</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Manage</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link text-danger" href="./login.html">Logout</a>
         </li>
       </ul>
     </div>
   </nav>
   <div class="container">
-    <div class="row">
-      <div class="jumbotron jumbo w-75">
+      <div class="jumbotron bg-white">
         <div class="container-fluid">
           <div class="column-lg">
             <div class="text-center">
-              <div class="col-lg plyrcont rounded p-5">
+              <div class="col-lg plyrcont rounded pt-5 pb-5">
                 <h6 class="text-danger"><small>** To edit, press on the field you want to change and press save when finished. **</small></h6>
                 <br>
                 <h2 id="playername" class="text-primary" contenteditable="true">Cristiano Ronaldo</h2>
@@ -59,16 +55,17 @@
                 <br>
                 <img id="playerphoto" src="../img/ronaldo.jpg" alt="Cristiano Ronaldo thumbnail image" class="img-thumbnail rounded-circle">
                 <br>
-                <button type="button" class="btn btn-sm btn-danger btn m-4">Delete Current Picture</button>
+                <button type="button" class="display-inline btn btn-sm btn-danger btn m-4">Delete</button>
                 <br>
                 <h6 class="text-danger"><small>** To edit player picture, press the "choose file" button below **</small></h6>                
                 <div class="form-group justify-content-center">
-                  <input type="file" class="form-control-sm pl-5" name="playerphoto" id="playerphoto" onchange="">
+                  <input type="file" class="form-control-sm" name="playerphoto" id="playerphoto" onchange="">
                 </div>
                 <hr>
                 <br>
                 <h6 class="text-danger"><small>** To edit, press on the field you want to change and press save when finished. **</small></h6>
-                <br>                
+                <br>
+                <div class="table-responsive">
                 <table class="table">
                   <tbody>
                     <tr>
@@ -109,6 +106,7 @@
                     </tr>
                   </tbody>
                 </table>
+                </div>
                 <hr>
                 <h5 class="text-danger"><small>** Press "Save" below to make sure changes are not lost. **</small></h5>
                 <a class="text-white" href="./viewplayer.html"><button type="submit" class="btn btn-primary btn-block">Save</button></a>
@@ -118,7 +116,6 @@
               </div>   
             </div>
           </div>
-        </div>
       </div>
     </div>
   </div>

@@ -15,6 +15,7 @@ body {
   color: white; 
 }
 
-.plyrcont {
-  border: 0.5vw solid gray;
+.jumbo {
+  background-color: white;
+  margin: 0 auto;
 }
