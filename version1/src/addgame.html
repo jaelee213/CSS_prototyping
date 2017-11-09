@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="../bscss/bootstrap.min.css" rel="stylesheet">
+  <link href="../style/addgame.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
@@ -22,7 +23,7 @@
 <body>
 
   <!-- navigation bar -->
-  <nav class="navbar navbar-default navbar-expand-md static-top navbar-dark bg-dark" id="navibar">
+  <nav class="navbar navbar-default navbar-expand-md fixed-top navbar-dark bg-dark" id="navibar">
       <a class="navbar-brand" href="./home.html">TeamWatch</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -50,18 +51,32 @@
 
  <!-- container with content -->
     <div class="container">
-      <div class="column-lg">
-        <h3 class="text-center"> Add Game </h3>
-      </div>
-      <div class="column-lg">
-        <form class="form-">
-          <label for="OppTeam">Opposite Team: </label>
-          <input type="text" class="form-control" id="OppTeam" name="OppTeam">
-          
-        </form>
-      </div>
+      <h3 class="text-center"> Add Game</h3>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label class="control-label" for="OppTeam">Opposing Team:</label>
+          <input type="text" class="form-control" id="OppTeam" name="OppTeam" placeholder="Enter Team Name">
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="gameDate">Date:</label>
+          <input type="date" class="form-control" id="gameDate" name="gameDate">
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="location">Location:</label>
+          <input type="text" class="form-control" id="location" name="location" placeholder="Enter Location">
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="status">Status:</label>
+          <div class="radio">
+            <label class="control-label"><input type="radio" name="status">Home</label>
+          </div>
+          <div class="radio">
+            <label class="control-label"><input type="radio" name="status">Away</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block col-lg-">Add Game</button>
+      </form>
     </div>
-  </div>
 
 </body>
 </html>
