@@ -12,17 +12,50 @@
 </head>
 
 <body>
-  <nav class="navbar">
+  <div class="navbar">
     <a href="./home.html" id="logo">TeamWatch</a>
     <a href="./home.html">Home</a>
     <a href="./gameschedule.html">Game</a>
     <a href="./players.html">Roster</a>
     <a href="./login.html" id="logout"> Logout</a>
-  </nav>
+  </div>
   <div class="teamcontainer">
     <h1 class="myteamname">Team KongLeeKim</h1>
+	<hr>
+	<p id="teamtotalheader">Team Total Stats</p>
+	<table id="teamtotaltable">
+	  <tr>
+	    <th>Wins</th>
+		<th>Losses</th>
+		<th>Ties</th>
+	  </tr>
+	  <tr>
+	    <td>3</td>
+		<td>1</td>
+		<td>0</td>
+	  </tr>
+	</table>
+	<table id="teamgoaltable">
+	  <tr>
+	    <th>Total Goals Scored</th>
+		<th>Total Goals Given Up</th>
+	  </tr>
+	  <tr>
+	    <td>7</td>
+		<td>3</td>
+	  </tr>
+	</table>
+  </div>
+  <div class="gamecontainer">
+    <h1>Today's Game</h1>
+	<p id="matchname">Team KongLeeKim vs Team Green</p>
+	<p><span id="matchscore">0 : 0</span></p>
+	<p>11/15 Tue 7:00 PM</p>
+	<p>SD Petco Park</p>
+	<p>Home Game</p>
+    <button id="viewstats" type="button">View Stats</button> 
+	<button id="editgame" type="button">Edit Game</button> 
   </div>
 </body>
-
 
 </html>

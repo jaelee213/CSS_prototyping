@@ -1,21 +1,77 @@
-﻿.teamcontainer {
-  width: 70rem;
-  height: 37rem;
+﻿.teamcontainer, .gamecontainer {
+  width: 80%;
+  margin: 1.5rem auto;
+  padding: 1rem 1rem 5rem 1rem;
   background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  border-radius: 0.5rem;
+  border: 0.1rem solid white;
+  border-radius: 0.3rem;
+  text-align: center;
 }
 
 .myteamname {
-  width: 62rem;
-  height: 3rem;
+  width: 80%;
+  margin: 2rem auto;
   background-color: #282828;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 3rem;
-  text-align: center;
   color: white;
   font-size: 2.5rem;
+  font-weight: normal;
+}
+
+#teamtotalheader {
+  font-size: 1.75rem;
+}
+
+#teamtotaltable, #teamgoaltable {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+}
+
+th, td {
+  border: 0.1rem solid #d4d8d5;
+}
+
+th {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #287aff;
+  color: white;
+}
+
+#teamgoaltable {
+  margin-top: 3rem;
+}
+
+.gamecontainer > h1 {
+  color: #219eff;
+  font-size: 2.7rem;
+  font-weight: normal;
+}
+
+#matchname, #matchscore {
+  font-size: 1.5rem;
+}
+
+#matchscore {
+  background-color: #fbffc1;
+}
+
+#viewstats {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  background-color: red;
+  color: white;
+}
+
+#editgame {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #287aff;
+  color: white;
 }
