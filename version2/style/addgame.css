@@ -8,6 +8,13 @@ body {
 .navbar {
   background-color: black;
   overflow: hidden;
+  border-bottom: 0.2rem solid white;  
+}
+
+.navbar nav {
+  display: inline-block;
+  margin: 0 auto;
+  top: 1vw;
 }
 
 .navbar a {
