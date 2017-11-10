@@ -4,7 +4,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* NAVBAR CSS STARTS HERE */
 .navbar {
   background-color: black;
   overflow: hidden;
@@ -24,7 +23,6 @@ body {
   text-align: center;
   padding: 2vw 1.2vw;
   text-decoration: none;
-  vertical-align: top;
 }
 
 .navbar > a:not(:first-child) {
@@ -41,7 +39,6 @@ body {
 #logout {
   color: red;
 }
-/* NAVBAR CSS ENDS Here */
 
 .box {
   margin: 1.5rem 1rem;

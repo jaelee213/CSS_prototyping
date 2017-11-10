@@ -37,7 +37,7 @@ body {
 }
 /* NAVBAR CSS ENDS Here */
 
-.box {
+.box1 {
   margin: 1.5rem 1rem;
   padding: 1rem 1rem 2rem 1rem;
   background-color: white;
@@ -46,7 +46,7 @@ body {
   text-align: center;
 }
 
-.borderBox {
+.borderBox1 {
   background-color: white;
   border: 0.5vw solid gray;
   border-radius: 0.5vw;
@@ -54,30 +54,30 @@ body {
   margin: 1rem;
 }
 
-.borderBox h6 {
+.borderboxh61 {
   color: #dc3545;
   font-size: 80%;
   font-weight: 400;
 }
 
-.borderBox h5 {
+.borderboxh51 {
   color: #dc3545;
   font-size: 1rem;
 }
 
-.borderBox h1 {
+.borderBoxh1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
   color: #007BFF;
 }
 
-.box hr {
+.box1 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.box .borderBox img {
+.box1 .borderBox1 img {
   border: 1px solid #ddd;
   border-radius: 50%;
   background-color: white;
@@ -86,12 +86,12 @@ body {
   margin-top: 1rem;
 }
 
-.box .borderBox table {
+.box1 .borderBox1 table {
   width: 80%;
   margin: auto;
 }
 
-tr, td {
+.editplayertable tr, td {
   border-top: 1px solid gray;
   font-size: 1rem;
   padding-top: 1rem;

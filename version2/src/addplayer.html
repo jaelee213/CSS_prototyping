@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-  <link rel="stylesheet" href="../style/addplayer.css">
+  <link rel="stylesheet" href="../style/style.css">
 
 
   <title>TeamWatch</title>
@@ -23,8 +23,8 @@
     <a href="./login.html" id="logout">Logout</a>
   </nav>
 
-  <div class="box">
-    <div class="borderBox">
+  <div class="box3">
+    <div class="borderBox3">
       <h1>Add Player</h1>
       <h5>Please fill out the following to add a new player to the team.</h5>
       <hr>
@@ -32,7 +32,7 @@
       <h6>** To edit player picture, press the "choose file" button below **</h6>
       <input type="file" name="propic" id="fileBtn">
       <hr>
-      <form>
+      <form class="form1">
         <input type="text" name="fname" placeholder="First Name">
         <input type="text" name="lname" placeholder="Last Name">
         <input type="email" name="email" placeholder="Email">
@@ -55,6 +55,7 @@
           <option value="starter"> Starter </option>
           <option value="substitute"> Substitute </option>
         </select>
+        <p><input type="button" onclick="location.href='./players.html';" value="Save" id="egssaveBtn"></p>            
       </form>
     </div>
   </div>

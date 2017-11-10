@@ -37,7 +37,7 @@ body {
 }
 /* NAVBAR CSS ENDS Here */
 
-.box {
+.box2 {
   margin: 1.5rem 1rem;
   padding: 1rem 1rem 2rem 1rem;
   background-color: white;
@@ -46,7 +46,7 @@ body {
   text-align: center;
 }
 
-.borderBox {
+.borderBox2 {
   background-color: white;
   border: 0.5vw solid gray;
   border-radius: 0.5vw;
@@ -54,19 +54,19 @@ body {
   margin: 1rem;
 }
 
-.box h1 {
+.box2 h1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
   color: #007BFF;
 }
 
-.box hr {
+.box2 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.box .borderBox img {
+.box2 .borderBox2 img {
   border: 1px solid #ddd;
   border-radius: 50%;
   background-color: white;
@@ -75,12 +75,12 @@ body {
   margin-top: 1rem;
 }
 
-.box .borderBox table {
+.box2 .borderBox2 table {
   width: 80%;
   margin: auto;
 }
 
-tr, td {
+.viewplayertbl tr, td {
   border-top: 1px solid gray;
   font-size: 1rem;
   padding-top: 1rem;

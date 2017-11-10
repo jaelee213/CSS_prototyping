@@ -78,7 +78,7 @@ body {
   border-radius: 0.3rem;
 }
 
-.box {
+.box0 {
   margin: 1.5rem 1rem;
   padding: 1rem 1rem 2rem 1rem;
   background-color: white;
@@ -87,7 +87,7 @@ body {
   text-align: center;
 }
 
-.box h2 {
+.box0 h2 {
   color: #17A2B8;
   font-size: 1.75rem;
   font-weight: 500;
@@ -95,14 +95,14 @@ body {
   padding-bottom: 0.1rem;
 }
 
-.box h3 {
+.box0 h3 {
   font-size: 1.75rem;
   font-weight: 400;
   margin-top: 0.3rem;
   margin-bottom: 1rem;
 }
 
- .box h4 mark{
+ .box0 h4 mark{
    font-size: 2rem;
    padding-left: 5%;
    padding-right: 5%;
@@ -110,6 +110,6 @@ body {
    color: green;
  }
 
- .box p {
+ .box0 p {
    margin: 0.5rem;
  }
