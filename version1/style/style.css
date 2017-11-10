@@ -4,7 +4,7 @@ body {
 
 .container {
   padding-top: 5rem;
-  margin-bottom: 3rem;  
+  margin-bottom: 3rem;
 }
 
 #navibar {
@@ -12,7 +12,28 @@ body {
 }
 
 #naviheader {
-  color: white; 
+  color: white;
+}
+
+.plyrcont {
+  border: 0.5vw solid gray;
+}
+
+.jumbo {
+  background-color: white;
+}
+
+.jumbo1 {
+  background-color: white;
+  margin: 0 auto;
+}
+
+.jumbo2 {
+  background-color: #d4d8d5;
+}
+
+.gamestatsteams {
+  font-size: 3rem;
 }
 
 .form_background {
