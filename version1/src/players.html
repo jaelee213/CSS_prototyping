@@ -1,6 +1,5 @@
 <!DOCTYPE html> 
 
-<!-- The players page --> 
 <html lang="en"> 
 <head>
   <meta charset="utf-8">
@@ -10,8 +9,7 @@
   <link href="../style/players.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-    
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script> 
   <title>TeamWatch</title>
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -45,7 +43,7 @@
   <div class="container">
     <div class="col-lg-12 bg-white">
       <div class="container-fluid pt-3">
-        <a href="./editplayerslist.html"><button type="button" class="btn btn-primary btn-lg btn-block" id="editplayerslist">Edit</button></a>       
+        <button type="button" onclick="location.href='./editplayerslist.html'" class="btn btn-primary btn-lg btn-block">Edit</button>      
         <br>
       </div>
       <h1 class="text-center text-primary pt-5">Roster</h1>
@@ -66,79 +64,79 @@
           </thead>
           <tbody>
             <tr id="player1">
-              <td id="playerjerseynumber">10</td>
-              <td id="playername">Lionel Messi</td>
-              <td id="playergoalsscored">10</td>
-              <td id="playerassists">11</td>
-              <td id="playertotalfouls">7</td>
-              <td id="playerredcards">0</td>
-              <td id="playeryellowcards">3</td>
-              <td id="playergamesplayed">21</td>
+              <td class="playerjerseynumber">10</td>
+              <td class="playername">Lionel Messi</td>
+              <td class="playergoalsscored">10</td>
+              <td class="playerassists">11</td>
+              <td class="playertotalfouls">7</td>
+              <td class="playerredcards">0</td>
+              <td class="playeryellowcards">3</td>
+              <td class="playergamesplayed">21</td>
             </tr>
             <tr id="player2">
-              <td id="playerjerseynumber">7</td>
-              <td id="playername">Cristiano Ronaldo</td>
-              <td id="playergoalsscored">20</td>
-              <td id="playerassists">6</td>
-              <td id="playertotalfouls">9</td>
-              <td id="playerredcards">0</td>
-              <td id="playeryellowcards">4</td>
-              <td id="playergamesplayed">20</td>
+              <td class="playerjerseynumber">7</td>
+              <td class="playername">Cristiano Ronaldo</td>
+              <td class="playergoalsscored">20</td>
+              <td class="playerassists">6</td>
+              <td class="playertotalfouls">9</td>
+              <td class="playerredcards">0</td>
+              <td class="playeryellowcards">4</td>
+              <td class="playergamesplayed">20</td>
             </tr>
             <tr id="player3"> 
-              <td id="playerjerseynumber">2</td>
-              <td id="playername">Lonzo Ball</td>
-              <td id="playergoalsscored">1</td>
-              <td id="playerassists">21</td>
-              <td id="playertotalfouls">9</td>
-              <td id="playerredcards">0</td>
-              <td id="playeryellowcards">2</td>
-              <td id="playergamesplayed">19</td>
+              <td class="playerjerseynumber">2</td>
+              <td class="playername">Lonzo Ball</td>
+              <td class="playergoalsscored">1</td>
+              <td class="playerassists">21</td>
+              <td class="playertotalfouls">9</td>
+              <td class="playerredcards">0</td>
+              <td class="playeryellowcards">2</td>
+              <td class="playergamesplayed">19</td>
             </tr>
             <tr id="player4">
-              <td id="playerjerseynumber">1</td>
-              <td id="playername">John Doe</td>
-              <td id="playergoalsscored">2</td>
-              <td id="playerassists">1</td>
-              <td id="playertotalfouls">7</td>
-              <td id="playerredcards">0</td>
-              <td id="playeryellowcards">3</td>
-              <td id="playergamesplayed">3</td>
+              <td class="playerjerseynumber">1</td>
+              <td class="playername">John Doe</td>
+              <td class="playergoalsscored">2</td>
+              <td class="playerassists">1</td>
+              <td class="playertotalfouls">7</td>
+              <td class="playerredcards">0</td>
+              <td class="playeryellowcards">3</td>
+              <td class="playergamesplayed">3</td>
             </tr>
             <tr id="player5">
-              <td id="playerjerseynumber">15</td>
-              <td id="playername">James Brown</td>
-              <td id="playergoalsscored">3</td>
-              <td id="playerassists">5</td>
-              <td id="playertotalfouls">3</td>
-              <td id="playerredcards">2</td>
-              <td id="playeryellowcards">5</td>
-              <td id="playergamesplayed">17</td>
+              <td class="playerjerseynumber">15</td>
+              <td class="playername">James Brown</td>
+              <td class="playergoalsscored">3</td>
+              <td class="playerassists">5</td>
+              <td class="playertotalfouls">3</td>
+              <td class="playerredcards">2</td>
+              <td class="playeryellowcards">5</td>
+              <td class="playergamesplayed">17</td>
             </tr>
             <tr id="player6">
-              <td id="playerjerseynumber">0</td>
-              <td id="playername">Kyle Kuzma</td>
-              <td id="playergoalsscored">20</td>
-              <td id="playerassists">1</td>
-              <td id="playertotalfouls">11</td>
-              <td id="playerredcards">0</td>
-              <td id="playeryellowcards">7</td>
-              <td id="playergamesplayed">18</td>
+              <td class="playerjerseynumber">0</td>
+              <td class="playername">Kyle Kuzma</td>
+              <td class="playergoalsscored">20</td>
+              <td class="playerassists">1</td>
+              <td class="playertotalfouls">11</td>
+              <td class="playerredcards">0</td>
+              <td class="playeryellowcards">7</td>
+              <td class="playergamesplayed">18</td>
             </tr>
             <tr id="player7">
-                <td id="playerjerseynumber">23</td>
-                <td id="playername">LeBum James</td>
-                <td id="playergoalsscored">0</td>
-                <td id="playerassists">0</td>
-                <td id="playertotalfouls">0</td>
-                <td id="playerredcards">0</td>
-                <td id="playeryellowcards">0</td>
-                <td id="playergamesplayed">0</td>
+                <td class="playerjerseynumber">23</td>
+                <td class="playername">LeBum James</td>
+                <td class="playergoalsscored">0</td>
+                <td class="playerassists">0</td>
+                <td class="playertotalfouls">0</td>
+                <td class="playerredcards">0</td>
+                <td class="playeryellowcards">0</td>
+                <td class="playergamesplayed">0</td>
               </tr>
           </tbody>
         </table>
         <br>
-        <a href="./addplayer.html"><button type="button" class="btn btn-primary btn-lg btn-block" id="editplayerslist">Add Player</button></a>               
+        <button type="button" onclick="location.href='./addplayer.html'" class="btn btn-primary btn-lg btn-block">Add Player</button>               
         <br>        
       </div>
     </div>
