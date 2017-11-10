@@ -1,6 +1,5 @@
 <!DOCTYPE html> 
 
-<!-- The edit player page --> 
 <html lang="en"> 
 <head>
   <meta charset="utf-8">
@@ -11,7 +10,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-    
   <title>TeamWatch</title>
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -52,13 +50,13 @@
                 <h2 id="playername" class="text-primary" contenteditable="true">Cristiano Ronaldo</h2>
                 <hr>
                 <br>
-                <img id="playerphoto" src="../img/ronaldo.jpg" alt="Cristiano Ronaldo thumbnail image" class="img-thumbnail rounded-circle">
+                <img src="../img/ronaldo.jpg" alt="Cristiano Ronaldo thumbnail image" class="playerphoto img-thumbnail rounded-circle">
                 <br>
                 <button type="button" class="display-inline btn btn-sm btn-danger btn m-4">Delete</button>
                 <br>
                 <h6 class="text-danger"><small>** To edit player picture, press the "choose file" button below **</small></h6>                
                 <div class="form-group justify-content-center">
-                  <input type="file" class="form-control-sm" name="playerphoto" id="playerphoto" onchange="">
+                  <input type="file" class="form-control-sm playerphoto" name="playerphoto" onchange="">
                 </div>
                 <hr>
                 <br>
@@ -108,10 +106,10 @@
                 </div>
                 <hr>
                 <h5 class="text-danger"><small>** Press "Save" below to make sure changes are not lost. **</small></h5>
-                <a class="text-white" href="./viewplayer.html"><button type="submit" class="btn btn-primary btn-block">Save</button></a>
+                <button type="submit" onclick="location.href='./viewplayer.html'" class="btn btn-primary btn-block">Save</button>
                 <hr>
                 <h5 class="text-danger"><small>** Press "Go back" to discard changes and go back to view player page. **</small></h5>                
-                <a class="text-white" href="./viewplayer.html"><button type="button" class= "btn btn-danger btn-block">Go back</button></a>
+                <button type="button" onclick="location.href='./viewplayer.html'" class= "btn btn-danger btn-block">Go back</button>
               </div>   
             </div>
           </div>
