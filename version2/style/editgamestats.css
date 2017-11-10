@@ -42,3 +42,18 @@
   background-color: black;
   color: white;
 }
+
+#egssaveBtn {
+  width: 95%;
+  background-color: #287aff;
+  color: white;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+}
+
+#egssaveBtn:hover {
+  background-color: #0f4aaa;
+  color: white;
+}
