@@ -87,6 +87,10 @@
   border-radius: 0.3rem;
 }
 
+#editGameBtn:hover {
+  background-color: #0f4aaa;
+}
+
 #viewStatsBtn {
   width: 90%;
   padding: 0.25rem;
@@ -98,4 +102,8 @@
   background-color: red;
   border: 0.1rem solid red;
   border-radius: 0.3rem;
+}
+
+#viewStatsBtn:hover {
+  background-color: #bf0000;
 }
